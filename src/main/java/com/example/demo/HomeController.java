@@ -22,6 +22,12 @@ public class HomeController {
     {
         return "secure";
     }
+
+    @RequestMapping("/secure2")
+    public String secure2()
+    {
+        return "secure2";
+    }
 }
 
 
